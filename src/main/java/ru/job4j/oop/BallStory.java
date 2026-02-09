@@ -37,5 +37,3 @@ public class BallStory {
         fox.tryEat(ball);
     }
 }
-
-
