@@ -5,8 +5,8 @@ public class Cat {
     private String food;
 
     public void show() {
-        System.out.println(this.name +
-                " there is cat's food: " + this.food);
+        System.out.println(this.name
+                + " there is cat's food: " + this.food);
     }
 
     public void giveNick(String nick) {
