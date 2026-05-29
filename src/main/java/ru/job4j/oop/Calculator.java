@@ -21,9 +21,8 @@ public class Calculator {
     }
 
     public int sumAllOperation(int d) {
-        d = sum(3) + multiply(4)
-                + minus(5) + divide(35);
-        return d;
+        return sum(d) + multiply(d)
+                + minus(d) + divide(d);
     }
 
     public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class Calculator {
         System.out.println(result);
         result = calculator.divide(35);
         System.out.println(result);
-        result = calculator.sumAllOperation(0);
+        result = calculator.sumAllOperation(7);
         System.out.println(result);
     }
 }
